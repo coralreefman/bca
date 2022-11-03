@@ -1,4 +1,4 @@
-# Bootstrap Computational Art
+# Bootstrapping Computational Art
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F5b6b3e792000009f00379402.jpeg%3Fops%3Dscalefit_720_noupscale&f=1&nofb=1" width=30%>
 
