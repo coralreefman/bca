@@ -52,19 +52,17 @@ done.
 
 ## Planning
 
-|Day             |Description                    |Focus                         |
-|----------------|-------------------------------|------------------------------|
-|1               |boot day                       |install fest and python basics|
-|2               |noise day                      |randomness and noise          |
-|3               |algorithm day                  |generative code fundamentals  |
-|4               |data day                       |data retrieval and structures |
-|5               |transformation day             |what to do with data?         |
-|----------------|-------------------------------|------------------------------|
-|6               |project day                    |work on personal project      |
-|7               |project day                    |work on personal project      |
-|8               |project day                    |work on personal project      |
-|9               |birth day                     |the first prototype           |
-|10              |studio visit D&V               |visit and presentation        |
+| Day | Date   | Description      | Focus         | Note |
+|-----|--------|------------------|---------------|------|
+|   1 | 2 oct  | intro day        |               | Carl |
+|   2 | 3 oct  | conception       | project plans | Carl |
+|   3 | 5 oct  | LLM's explained  |               | Jan  |
+|   4 | 6 oct  | project day      |               |      |
+|-----|--------|------------------|---------------|------|
+|   5 | 9 oct  | project day      |               |      |
+|   6 | 10 oct | project day      |               | Carl |
+|   7 | 12 oct | project day      |               |      |
+|   8 | 13 oct | studio visit D&V | presentations |      |
 
 _“In the computer field, the moment of truth is a_
 _running program; all else is prophecy.”_
