@@ -24,8 +24,8 @@ Once anaconda is installed you can open a terminal or anaconda prompt (for windo
 
 To create an environment for this class enter the following into your terminal:
 
-`conda create --name bca python=3.9`
-This command will set up an environment called 'bca' using python 3.9.
+`conda create --name bca python=3.10`  
+This command will set up an environment called 'bca' using python 3.10.
 
 To activate the environment in your current terminal session, simply type:
 
@@ -47,22 +47,22 @@ Finally clone this repository. To do so, first change your directory to the loca
 
 Now you can write the following in your terminal:
 `git clone https://github.com/coralreefman/bca.git`
-
 done.
+If that doesn't work, just download the .zip form the code button above and unzip on your computer.
 
 ## Planning
 
-| Day | Date   | Description      | Focus         | Note |
-|-----|--------|------------------|---------------|------|
-|   1 | 2 oct  | intro day        |               | Carl |
-|   2 | 3 oct  | conception       | project plans | Carl |
-|   3 | 5 oct  | LLM's explained  |               | Jan  |
-|   4 | 6 oct  | project day      |               |      |
-|-----|--------|------------------|---------------|------|
-|   5 | 9 oct  | project day      |               |      |
-|   6 | 10 oct | project day      |               | Carl |
-|   7 | 12 oct | project day      |               |      |
-|   8 | 13 oct | studio visit D&V | presentations |      |
+| Day | Date   | Description      | Focus           | Note |
+|-----|--------|------------------|-----------------|------|
+|   1 | 2 oct  | intro day        |                 | Carl |
+|   2 | 3 oct  | conception       | project plans   | Carl |
+|   3 | 5 oct  | LLM day          | LLM's explained | Jan  |
+|   4 | 6 oct  | project day      |                 |      |
+|-----|--------|------------------|-----------------|------|
+|   5 | 9 oct  | project day      |                 |      |
+|   6 | 10 oct | project day      |                 | Carl |
+|   7 | 12 oct | project day      |                 |      |
+|   8 | 13 oct | studio visit D&V | presentations   |      |
 
 _“In the computer field, the moment of truth is a_
 _running program; all else is prophecy.”_
