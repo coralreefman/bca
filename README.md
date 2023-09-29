@@ -54,13 +54,13 @@ If that doesn't work, just download the .zip form the code button above and unzi
 
 | Day | Date   | Description      | Focus           | Note |
 |-----|--------|------------------|-----------------|------|
-|   1 | 2 oct  | intro day        |                 | Carl |
-|   2 | 3 oct  | conception       | project plans   | Carl |
+|   1 | 2 oct  | boot day         | introduction    | Carl |
+|   2 | 3 oct  | conception day   | project plans   | Carl |
 |   3 | 5 oct  | LLM day          | LLM's explained | Jan  |
 |   4 | 6 oct  | project day      |                 |      |
 |-----|--------|------------------|-----------------|------|
-|   5 | 9 oct  | project day      |                 |      |
-|   6 | 10 oct | project day      |                 | Carl |
+|   5 | 9 oct  | project day      | individuals     | Carl |
+|   6 | 10 oct | project day      |                 |      |
 |   7 | 12 oct | project day      |                 |      |
 |   8 | 13 oct | studio visit D&V | presentations   |      |
 
