@@ -4,3 +4,4 @@ notebooks/.DS_Store
 .ipynb_checkpoints/
 audio/
 .DS_Store
+/notebooks/.virtual_documents/
