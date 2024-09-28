@@ -24,7 +24,7 @@ Once anaconda is installed you can open a terminal or anaconda prompt (for windo
 
 To create an environment for this class enter the following into your terminal:
 
-`conda create --name bca python=3.10`  
+`conda create --name bca python=3.10`
 This command will set up an environment called 'bca' using python 3.10.
 
 To activate the environment in your current terminal session, simply type:
@@ -50,19 +50,19 @@ Now you can write the following in your terminal:
 done.
 If that doesn't work, just download the .zip form the code button above and unzip on your computer.
 
-## Planning
+## Planning (tbd)
 
 | Day | Date   | Description      | Focus           | Note |
 |-----|--------|------------------|-----------------|------|
-|   1 | 2 oct  | boot day         | introduction    | Carl |
-|   2 | 3 oct  | conception day   | project plans   | Carl |
-|   3 | 5 oct  | LLM day          | LLM's explained | Jan  |
-|   4 | 6 oct  | project day      |                 |      |
+| 1   | 30 sep | boot day         | introduction    |      |
+| 2   | 01 oct | conception day   | project plans   |      |
+| 3   | 03 oct | LLM day          | LLM's explained |      |
+| 4   | 04 oct | project day      |                 |      |
 |-----|--------|------------------|-----------------|------|
-|   5 | 9 oct  | project day      | individuals     | Carl |
-|   6 | 10 oct | project day      |                 |      |
-|   7 | 12 oct | project day      |                 |      |
-|   8 | 13 oct | studio visit D&V | presentations   |      |
+| 5   | 07 oct | project day      | individuals     |      |
+| 6   | 08 oct | project day      |                 |      |
+| 7   | 10 oct | project day      |                 |      |
+| 8   | 11 oct | studio visit D&V | presentations   |      |
 
 _“In the computer field, the moment of truth is a_
 _running program; all else is prophecy.”_
