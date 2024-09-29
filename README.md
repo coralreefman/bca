@@ -24,7 +24,8 @@ Once anaconda is installed you can open a terminal or anaconda prompt (for windo
 
 To create an environment for this class enter the following into your terminal:
 
-`conda create --name bca python=3.12`
+`conda create --name bca python=3.12`  
+
 This command will set up an environment called 'bca' using python 3.12.
 
 To activate the environment in your current terminal session, simply type:
@@ -45,9 +46,10 @@ to run jupyter:
 
 Finally clone this repository. To do so, first change your directory to the location where you would like to install it using the `cd` command in your terminal. On Mac you could for example `cd Desktop` and press enter.
 
-Now you can write the following in your terminal:
-`git clone https://github.com/coralreefman/bca.git`
-done.
+Now you can write the following in your terminal:  
+
+`git clone https://github.com/coralreefman/bca.git`  
+
 If that doesn't work, just download the .zip form the code button above and unzip on your computer.
 
 ## Planning (tbd)
