@@ -77,80 +77,94 @@ On each day in the morning we will have an introduction to several topics rangin
 ### Chatbots and Language Models
 
 **Mistral AI**
-- Website: https://mistral.ai
-- Features: Free chat version, downloadable model weights, paid fine-tuning
+- https://mistral.ai
+- Free chat version, downloadable model weights, paid fine-tuning
 
 **ChatGPT**
-- Website: https://chat.openai.com
-- Features: Free and paid chat versions, fine-tuning options, plugins
+- https://chat.openai.com
+- Free and paid chat versions, fine-tuning options, plugins
 
 **Claude AI**
-- Website: https://claude.ai
-- Features: Limited free chat version, advanced reasoning capabilities
+- https://claude.ai
+- Limited free chat version, advanced reasoning capabilities
 
 **Meta AI (LLaMA)**
-- Website: https://ai.meta.com
-- Features: Free chat version, downloadable model weights
+- https://ai.meta.com
+- Free chat version, downloadable model weights
 
 **Google Gemini**
-- Website: https://gemini.google.com/
-- Features: Free and paid chat versions
+- https://gemini.google.com/
+- Free and paid chat versions
 
 ### AI-Assisted Development Tools
 
 **GitHub Copilot**
-- Website: https://github.com/features/copilot
-- Features: AI-powered code completion and generation (paid)
+- https://github.com/features/copilot
+- AI-powered code completion and generation (paid)
 
 **Cursor**
-- Website: https://www.cursor.so
-- Features: AI-enhanced code editor with free and paid versions
+- https://www.cursor.so
+- AI-enhanced code editor with free and paid versions
 
 **v0.dev**
-- Website: https://v0.dev
-- Features: AI-powered web UI generation for React/CSS
+- https://v0.dev
+- AI-powered web UI generation for React/CSS
 
 ### AI-Enhanced Search Engines
 
 **Perplexity AI**
-- Website: https://www.perplexity.ai
-- Features: AI-powered search engine with cited sources
+- https://www.perplexity.ai
+- AI-powered search engine with cited sources
+
+### Additional Tools
+
+**Hugging Face**
+- https://huggingface.co
+- Open-source AI community, model hub, and development tools
+
+**OpenAI Playground**
+- https://platform.openai.com/playground
+- Experimentation platform for OpenAI's models
+
+**Anthropic AI**
+- https://www.anthropic.com
+- Advanced AI research and development
 
 ### Free or Low-Cost Deployment and Cloud Compute
 
 **Google Colab**
-- Website: https://colab.research.google.com
-- Features: Free Jupyter notebooks with GPU/TPU options, easy sharing
+- https://colab.research.google.com
+- Free Jupyter notebooks with GPU/TPU options, easy sharing
 
 **Kaggle Kernels**
-- Website: https://www.kaggle.com/code
-- Features: Free notebooks, GPUs, and datasets for data science
+- https://www.kaggle.com/code
+- Free notebooks, GPUs, and datasets for data science
 
 **Hugging Face Spaces**
-- Website: https://huggingface.co/spaces
-- Features: Free hosting for ML demo apps, integration with Hugging Face models
+- https://huggingface.co/spaces
+- Free hosting for ML demo apps, integration with Hugging Face models
 
 **Streamlit**
-- Website: https://streamlit.io
-- Features: Easy web app creation for ML projects, free community cloud hosting
+- https://streamlit.io
+- Easy web app creation for ML projects, free community cloud hosting
 
 **Gradio**
-- Website: https://gradio.app
-- Features: Simple ML web interfaces, free hosting via Hugging Face Spaces
+- https://gradio.app
+- Simple ML web interfaces, free hosting via Hugging Face Spaces
 
 **Paperspace**
-- Website: https://www.paperspace.com/artificial-intelligence
-- Features: Free tier available, GPU-powered notebooks and deployments
+- https://www.paperspace.com/artificial-intelligence
+- Free tier available, GPU-powered notebooks and deployments
 
 ### Learning Resources
 
 **Fast.ai**
-- Website: https://www.fast.ai
-- Features: Free courses on deep learning and AI
+- https://www.fast.ai
+- Free courses on deep learning and AI
 
 **DeepLearning.AI**
-- Website: https://www.deeplearning.ai
-- Features: AI courses and specializations
+- https://www.deeplearning.ai
+- AI courses and specializations
 
 ### YouTube Tutorials
 
