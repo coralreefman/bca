@@ -24,8 +24,8 @@ Once anaconda is installed you can open a terminal or anaconda prompt (for windo
 
 To create an environment for this class enter the following into your terminal:
 
-`conda create --name bca python=3.10`
-This command will set up an environment called 'bca' using python 3.10.
+`conda create --name bca python=3.12`
+This command will set up an environment called 'bca' using python 3.12.
 
 To activate the environment in your current terminal session, simply type:
 
