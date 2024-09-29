@@ -4,6 +4,10 @@
 
 Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.com/entry/pull-yourself-up-by-your-bootstraps-nonsense_n_5b1ed024e4b0bbb7a0e037d4).
 
+## Course Outline
+In this super practical workshop we will get you going with programming simple computational artworks. The focus is on learning the basics. Topics might include: recursion, randomness, generative algorithms, rule sets, data processing, web scraping, hacking, text generation, chaotic systems, and some machine learning. We will use the programming language Python, so some experience with programming is required! In the morning we will discuss some theory, and study examples from computer art history. This will take about 1 hour, and will be followed by coding examples and hands-on help on the individual student’s project.  
+As Artificial Intelligence and Machine Learning is developing at a rapid rate, we will look at how this can help us with generative art and how we can code more effectively with AI-assist.
+
 ## Requirements
 
 ### Git
@@ -52,21 +56,130 @@ Now you can write the following in your terminal:
 
 If that doesn't work, just download the .zip form the code button above and unzip on your computer.
 
-## Planning (tbd)
+## Planning 2024
 
-| Day | Date   | Description      | Focus           | Note |
-|-----|--------|------------------|-----------------|------|
-| 1   | 30 sep | boot day         | introduction    |      |
-| 2   | 01 oct | conception day   | project plans   |      |
-| 3   | 03 oct | LLM day          | LLM's explained |      |
-| 4   | 04 oct | project day      |                 |      |
-|-----|--------|------------------|-----------------|------|
-| 5   | 07 oct | project day      | individuals     |      |
-| 6   | 08 oct | project day      |                 |      |
-| 7   | 10 oct | project day      |                 |      |
-| 8   | 11 oct | studio visit D&V | presentations   |      |
+On each day in the morning we will have an introduction to several topics ranging from chaos and randomness to machine learning and neural networks, after which you will have some time to work on your projects.
+
+| Day | Date   | Description            | Focus                               | Notes |
+|-----|--------|------------------------|-------------------------------------|-------|
+| 1   | 30 sep | boot day               | introduction and install fest.      |       |
+| 2   | 01 oct | conception day         | project plans                       |       |
+| 3   | 03 oct | enter the matrix day   | LLM's explained                     |       |
+| 4   | 04 oct | noise day              | noise, chaos, randomness            |       |
+|-----|--------|------------------------|-------------------------------------|-------|
+| 5   | 07 oct | BYOC day               | BringYourOwnCode                    |       |
+| 6   | 08 oct | debugging day          | individual project                  |       |
+| 7   | 10 oct | birth day              | individual project                  |       |
+| 8   | 11 oct | studio visit D&V       | presentations                       |       |
+
+## LLM tools
+
+### Chatbots and Language Models
+
+**Mistral AI**
+- Website: https://mistral.ai
+- Features: Free chat version, downloadable model weights, paid fine-tuning
+
+**ChatGPT**
+- Website: https://chat.openai.com
+- Features: Free and paid chat versions, fine-tuning options, plugins
+
+**Claude AI**
+- Website: https://claude.ai
+- Features: Limited free chat version, advanced reasoning capabilities
+
+**Meta AI (LLaMA)**
+- Website: https://ai.meta.com
+- Features: Free chat version, downloadable model weights
+
+**Google Gemini**
+- Website: https://gemini.google.com/
+- Features: Free and paid chat versions
+
+### AI-Assisted Development Tools
+
+**GitHub Copilot**
+- Website: https://github.com/features/copilot
+- Features: AI-powered code completion and generation (paid)
+
+**Cursor**
+- Website: https://www.cursor.so
+- Features: AI-enhanced code editor with free and paid versions
+
+**v0.dev**
+- Website: https://v0.dev
+- Features: AI-powered web UI generation for React/CSS
+
+### AI-Enhanced Search Engines
+
+**Perplexity AI**
+- Website: https://www.perplexity.ai
+- Features: AI-powered search engine with cited sources
+
+### Free or Low-Cost Deployment and Cloud Compute
+
+**Google Colab**
+- Website: https://colab.research.google.com
+- Features: Free Jupyter notebooks with GPU/TPU options, easy sharing
+
+**Kaggle Kernels**
+- Website: https://www.kaggle.com/code
+- Features: Free notebooks, GPUs, and datasets for data science
+
+**Hugging Face Spaces**
+- Website: https://huggingface.co/spaces
+- Features: Free hosting for ML demo apps, integration with Hugging Face models
+
+**Streamlit**
+- Website: https://streamlit.io
+- Features: Easy web app creation for ML projects, free community cloud hosting
+
+**Gradio**
+- Website: https://gradio.app
+- Features: Simple ML web interfaces, free hosting via Hugging Face Spaces
+
+**Paperspace**
+- Website: https://www.paperspace.com/artificial-intelligence
+- Features: Free tier available, GPU-powered notebooks and deployments
+
+### Learning Resources
+
+**Fast.ai**
+- Website: https://www.fast.ai
+- Features: Free courses on deep learning and AI
+
+**DeepLearning.AI**
+- Website: https://www.deeplearning.ai
+- Features: AI courses and specializations
+
+### YouTube Tutorials
+
+**Socratica - Python Course**
+- https://www.youtube.com/watch?v=bY6m6_IIN94&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&pp=iAQB
+- Comprehensive Python programming course
+
+**3blue1brown - Neural Networks**
+- https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&pp=iAQB
+- Visual explanations of neural network concepts
+
+**3blue1brown - Explainers**
+- https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&pp=iAQB
+- In-depth explanations of various mathematical concepts
+
+**Andrej Karpathy - Intro to LLM's**
+- https://youtu.be/zjkBMFhNj_g?si=jsJmkYrKSgEIWU0H
+- Introduction to Large Language Models
+
+**Andrej Karpathy - Neural Networks: Zero to Hero**
+- https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+- Comprehensive course on neural networks from basics to advanced topics
+
+**Computerphile**
+- https://www.youtube.com/@Computerphile
+- Wide range of computer science topics explained in-depth
 
 _“In the computer field, the moment of truth is a_
 _running program; all else is prophecy.”_
 
 Herbert Simon
+
