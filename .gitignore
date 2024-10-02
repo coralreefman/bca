@@ -6,3 +6,7 @@ audio/
 .DS_Store
 /notebooks/.virtual_documents/
 zen_of_python.txt
+*.png
+*.mp3
+*.jpg
+*.wav
