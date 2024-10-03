@@ -3,6 +3,7 @@ notebooks/.DS_Store
 .DS_Store
 .ipynb_checkpoints/
 audio/
+data/
 .DS_Store
 /notebooks/.virtual_documents/
 zen_of_python.txt
