@@ -11,18 +11,19 @@ Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.co
 - [ ] Update Planning in bca25 branch  
 - [ ] Add miniconda & venv install manual to readme  
 - [ ] Add how to install ffmpeg to readme
+- [ ] Check and update LLM tool list (Additional Tools & Deployments)
 
 ## Ideas
 
 - BringYourOwnData  
-- another notebook about emergence/complexity with CA, genetic algos and neural networks, autopoesis  
-- add kernels to matrix nb, like edge detect blur etc.
-- notebook about sorting, (sorting algos, pixel sorting etc.) that we could place after the noise nb.
-- add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
-- show differences between parametric / procedural / generative approaches
-- digital vs analogue 
-- how to write pseudo code, flowcharts (Sol LeWitt)
-- mapping as alchemy
+- Notebook about emergence/complexity with CA, genetic algos and neural networks, autopoesis  
+- Add kernels to matrix nb, like edge detection, blur etc.
+- Notebook about sorting, (sorting algos, pixel sorting etc.) that we could place after the noise nb.
+- Add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
+- Show differences between parametric / procedural / generative approaches
+- Digital vs analogue 
+- How to write pseudo code, flowcharts, instructions (Sol LeWitt)
+- Mapping as alchemy
 
 
 ## Course Outline
@@ -94,6 +95,7 @@ On each day in the morning we will have an introduction to several topics rangin
 | 8   |        |                        |                                     |       |
 
 ## LLM tools
+_Last updated: 2025-07-24_
 
 ### Chatbots and Language Models
 
@@ -107,7 +109,7 @@ On each day in the morning we will have an introduction to several topics rangin
 
 **Claude AI**
 - https://claude.ai
-- Limited free chat version, advanced reasoning capabilities
+- Limited free chat version, reasoning capabilities
 
 **Meta AI (LLaMA)**
 - https://ai.meta.com
@@ -121,21 +123,21 @@ On each day in the morning we will have an introduction to several topics rangin
 
 **GitHub Copilot**
 - https://github.com/features/copilot
-- AI-powered code completion and generation (paid)
+- Code completion and generation (paid)
 
 **Cursor**
 - https://www.cursor.so
-- AI-enhanced code editor with free and paid versions
+- Code editor (VS Code fork) with free and paid versions
 
 **v0.dev**
 - https://v0.dev
-- AI-powered web UI generation for React/CSS
+- Web UI generation for React/CSS
 
 ### AI-Enhanced Search Engines
 
 **Perplexity AI**
 - https://www.perplexity.ai
-- AI-powered search engine with cited sources
+- Search engine with cited sources
 
 ### Additional Tools
 
@@ -149,7 +151,7 @@ On each day in the morning we will have an introduction to several topics rangin
 
 **Anthropic AI**
 - https://www.anthropic.com
-- Advanced AI research and development
+- Advanced AI research and development (claude)
 
 ### Free or Low-Cost Deployment and Cloud Compute
 
