@@ -4,6 +4,27 @@
 
 Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.com/entry/pull-yourself-up-by-your-bootstraps-nonsense_n_5b1ed024e4b0bbb7a0e037d4).
 
+## To Do:
+
+- [ ] Add RAG notebook  
+- [ ] Add requirements.txt & add pip install instructions (talk about optional / required)
+- [ ] Update Planning in bca25 branch  
+- [ ] Add miniconda & venv install manual to readme  
+- [ ] Add how to install ffmpeg to readme
+
+## Ideas
+
+- BringYourOwnData  
+- another notebook about emergence/complexity with CA, genetic algos and neural networks, autopoesis  
+- add kernels to matrix nb, like edge detect blur etc.
+- notebook about sorting, (sorting algos, pixel sorting etc.) that we could place after the noise nb.
+- add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
+- show differences between parametric / procedural / generative approaches
+- digital vs analogue 
+- how to write pseudo code, flowcharts (Sol LeWitt)
+- mapping as alchemy
+
+
 ## Course Outline
 In this super practical workshop we will get you going with programming simple computational artworks. The focus is on learning the basics. Topics might include: recursion, randomness, generative algorithms, rule sets, data processing, web scraping, hacking, text generation, chaotic systems, and some machine learning. We will use the programming language Python, so some experience with programming is required! In the morning we will discuss some theory, and study examples from computer art history. This will take about 1 hour, and will be followed by coding examples and hands-on help on the individual student’s project.  
 As Artificial Intelligence and Machine Learning is developing at a rapid rate, we will look at how this can help us with generative art and how we can code more effectively with AI-assist.
@@ -56,21 +77,21 @@ Now you can write the following in your terminal:
 
 If that doesn't work, just download the .zip form the code button above and unzip on your computer.
 
-## Planning 2024
+## Planning
 
 On each day in the morning we will have an introduction to several topics ranging from chaos and randomness to machine learning and neural networks, after which you will have some time to work on your projects.
 
 | Day | Date   | Description            | Focus                               | Notes |
 |-----|--------|------------------------|-------------------------------------|-------|
-| 1   | 30 sep | boot day               | introduction and install fest.      |       |
-| 2   | 01 oct | conception day         | project plans                       |       |
-| 3   | 03 oct | enter the matrix day   | LLM's explained                     |       |
-| 4   | 04 oct | noise day              | noise, chaos, randomness            |       |
+| 1   |        |                        |                                     |       |
+| 2   |        |                        |                                     |       |
+| 3   |        |                        |                                     |       |
+| 4   |        |                        |                                     |       |
 |-----|--------|------------------------|-------------------------------------|-------|
-| 5   | 07 oct | BYOC day               | BringYourOwnCode                    |       |
-| 6   | 08 oct | debugging day          | individual project                  |       |
-| 7   | 10 oct | birth day              | individual project                  |       |
-| 8   | 11 oct | studio visit D&V       | presentations                       |       |
+| 5   |        |                        |                                     |       |
+| 6   |        |                        |                                     |       |
+| 7   |        |                        |                                     |       |
+| 8   |        |                        |                                     |       |
 
 ## LLM tools
 
