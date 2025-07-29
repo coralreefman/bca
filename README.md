@@ -6,13 +6,14 @@ Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.co
 
 ## To Do:
 
-- [ ] Add RAG notebook  
+- [x] Replace anaconda with miniconda & venv install manual to readme
+- [x] Add requirements.txt & add pip install instructions (talk about optional / required)
+- [x] Add how to install ffmpeg to readme
+- [x] Check and update LLM tool list (Additional Tools & Deployments)
+- [x] Add section about scraping
+- [ ] Add RAG notebooks  
 - [ ] Clean up dev branch 
-- [ ] Add requirements.txt & add pip install instructions (talk about optional / required)
 - [ ] Update Planning in bca25 branch  
-- [ ] Replace anaconda with miniconda & venv install manual to readme
-- [ ] Add how to install ffmpeg to readme
-- [ ] Check and update LLM tool list (Additional Tools & Deployments)
 - [ ] BringYourOwnData -> Data represented as something else, look at data in different ways (is there a good example?) -> david kreisel? edwin van der heyde ms word as music -> jpeg editing (headers / change numbers / inspect headers / inspect)
 - [ ] Add References to bottom of readme  
 - [ ] Add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
@@ -38,49 +39,136 @@ As Artificial Intelligence and Machine Learning is developing at a rapid rate, w
 
 ### Git
 
-Git is a free and open source distributed version control system.
+Git helps us keep track of changes in our code and makes it easy to share and collaborate.
+To be precise, it is a free and open source distributed version control system.
 Macs should have it preinstalled, otherwise you can download it here:
 
 https://github.com/git-guides/install-git
 
-### Anaconda for python
-
-Anaconda is a package manager, an environment manager, and Python distribution that contains a collection of many open source packages.
-You can find the install instructions for your platform here:
-
-https://docs.anaconda.com/anaconda/install/index.html
-
-Once anaconda is installed you can open a terminal or anaconda prompt (for windows). If it was installed correctly you should see `(base)` next to your username. Alternatively you can type `conda` in your terminal to check if it works.
-
-To create an environment for this class enter the following into your terminal:
-
-`conda create --name bca python=3.12`  
-
-This command will set up an environment called 'bca' using python 3.12.
-
-To activate the environment in your current terminal session, simply type:
-
-`conda activate bca`
-
-### Jupyter Lab
-
-We will use Jupyter to work with python notebooks directly in the browser.
-Once you have Anaconda up and running and activated your environment you can simply install jupyter with pip by entering:
-
-`pip install jupyterlab`
-
-to run jupyter:
-`jupyter lab`
-
 ### Clone this repository
 
-Finally clone this repository. To do so, first change your directory to the location where you would like to install it using the `cd` command in your terminal. On Mac you could for example `cd Desktop` and press enter.
+Clone this repository. To do so, first change your directory to the location where you would like to install it using the `cd` command in your terminal. On Mac you could for example `cd Desktop` and press enter.
 
 Now you can write the following in your terminal:  
 
 `git clone https://github.com/coralreefman/bca.git`  
 
-If that doesn't work, just download the .zip form the code button above and unzip on your computer.
+If that doesn't work, just download the .zip from the code button above and unzip on your computer.
+
+### Python Environment Setup
+
+A Python environment keeps different projects and their packages separate, which prevents a lot of problems when working on multiple projects or when sharing code with others.  
+
+Here are some common ways to manage Python environments:  
+
+### Miniconda (Recommended)
+Miniconda is a minimal installer that includes only Python, conda (package manager), and a few other essential packages. It's much lighter than Anaconda (480 MB vs. 4.4 GB) and gives you more control over which packages to install.
+
+You can download Miniconda here:
+https://www.anaconda.com/download  
+
+Or install it directly from the command line:
+https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions  
+
+
+### Anaconda
+
+Anaconda is a full distribution that comes with a lot of Python packages pre-installed. While comprehensive, it can be overkill for most users and takes up significant disk space. Only choose this option if you need the full suite of data science packages immediately.
+You can find the install instructions for your platform here:
+https://www.anaconda.com/docs/getting-started/anaconda/install  
+
+Once miniconda or anaconda is installed you can open a terminal or anaconda prompt (for windows). If it was installed correctly you should see `(base)` next to your username. Alternatively you can type `conda` in your terminal to check if it works.
+
+To create an environment for this class enter the following into your terminal:
+
+```bash
+# Create environment
+conda create --name bca python=3.12
+```  
+
+This command will set up an environment called 'bca' using python 3.12.
+
+To activate the environment in your current terminal session, simply type:
+
+```bash
+# Activate environment
+conda activate bca
+```
+
+After activating your conda environment:
+```bash
+# Install required packages to the new environment
+pip install -r requirements.txt
+```
+
+### Python venv (Lightweight Alternative)
+If you already have Python installed, you can use the built-in `venv` module. This is the most lightweight option as it's included with Python and doesn't require additional installers. However, it only manages Python packages and doesn't include additional tools like conda.
+
+First, install Python from:
+https://www.python.org/downloads/
+
+Then create a virtual environment:
+```bash
+# Create environment
+python -m venv bca
+
+# Activate environment
+# On Mac/Linux:
+source bca/bin/activate
+# On Windows:
+bca\Scripts\activate
+
+# Install required packages to the new environment
+pip install -r requirements.txt
+```
+
+The `requirements.txt` file contains a list of Python packages needed to run the code in our notebooks. You can either install them all at once using the command above, or install packages one by one as you need them while working through the notebooks.
+
+### Jupyter Lab
+
+Jupyter Lab lets us write and run code in the browser, see results immediately, and mix code with text and images. It's great for experimenting and learning. It's included in requirements.txt, but if you haven't installed that yet:  
+
+```bash
+pip install jupyterlab
+```
+
+to run jupyter:
+```bash
+jupyter lab
+```
+
+### FFmpeg Installation (Optional)
+
+FFmpeg is required for video processing in some of our notebooks. It can be a bit of a pain to install, but here are some easy ways to get it working:
+
+Using conda (if you installed Miniconda/Anaconda) - this is probably the easiest way:
+```bash
+conda install ffmpeg
+```
+
+Using Homebrew on Mac, also super straightforward:
+```bash
+brew install ffmpeg
+```
+
+For Windows users, a bit more involved:
+1. Download from: https://www.gyan.dev/ffmpeg/builds/ (recommended "essentials" build)
+2. Extract the archive
+3. Add the `bin` folder to your system's PATH environment variable
+
+For Linux users:
+```bash
+# Ubuntu/Debian
+sudo apt install ffmpeg
+
+# Fedora
+sudo dnf install ffmpeg
+```
+
+To check if it worked, just type:
+```bash
+ffmpeg -version
+```
 
 ## Planning
 
@@ -100,7 +188,7 @@ On each day in the morning we will have an introduction to several topics rangin
 
 
 ## LLM tools
-_Last updated: 2025-07-24_
+_Last updated: 2025-07-29_
 
 ### Chatbots and Language Models
 
@@ -108,27 +196,34 @@ _Last updated: 2025-07-24_
 - https://mistral.ai
 - Free chat version, downloadable model weights, paid fine-tuning
 
-**ChatGPT**
+**ChatGPT & OpenAI**
 - https://chat.openai.com
-- Free and paid chat versions, fine-tuning options, plugins
+- Free and paid chat versions, plugins
+- https://platform.openai.com/playground
+- API access and playground for experimentation
 
-**Claude AI**
+**Claude & Anthropic**
 - https://claude.ai
-- Limited free chat version, reasoning capabilities
+- Free chat version with large context window
+- https://console.anthropic.com
+- Claude API and playground
 
 **Meta AI (LLaMA)**
 - https://ai.meta.com
 - Free chat version, downloadable model weights
 
-**Google Gemini**
+**Google AI Platform**
 - https://gemini.google.com/
 - Free and paid chat versions
+- https://cloud.google.com/vertex-ai
+- Full AI/ML development platform with:
+  - Gemini API access
+  - Model training and deployment
+  - Notebooks with free GPU/TPU
+  - AutoML for custom models
+- Student credits available through Google Cloud
 
 ### AI-Assisted Development Tools
-
-**GitHub Copilot**
-- https://github.com/features/copilot
-- Code completion and generation (paid)
 
 **Cursor**
 - https://www.cursor.so
@@ -137,6 +232,15 @@ _Last updated: 2025-07-24_
 **v0.dev**
 - https://v0.dev
 - Web UI generation for React/CSS
+
+**Replit**
+- https://replit.com
+- Online IDE with built-in AI features
+- Good for: quick experiments, sharing code
+
+**GitHub Copilot**
+- https://github.com/features/copilot
+- Code completion and generation (paid)
 
 ### AI-Enhanced Search Engines
 
@@ -148,43 +252,34 @@ _Last updated: 2025-07-24_
 
 **Hugging Face**
 - https://huggingface.co
-- Open-source AI community, model hub, and development tools
-
-**OpenAI Playground**
-- https://platform.openai.com/playground
-- Experimentation platform for OpenAI's models
-
-**Anthropic AI**
-- https://www.anthropic.com
-- Advanced AI research and development (claude)
-
-### Free or Low-Cost Deployment and Cloud Compute
+- ML model hub, tutorials, courses
+- Active community, good documentation
 
 **Google Colab**
 - https://colab.research.google.com
 - Free Jupyter notebooks with GPU/TPU options, easy sharing
+- Good for ML experiments
 
-**Kaggle Kernels**
-- https://www.kaggle.com/code
-- Free notebooks, GPUs, and datasets for data science
+**Transformers (Hugging Face)**
+- https://huggingface.co/docs/transformers
+- Essential library for working with AI models
+- Huge collection of pre-trained models
+- Great documentation and examples
 
-**Hugging Face Spaces**
-- https://huggingface.co/spaces
-- Free hosting for ML demo apps, integration with Hugging Face models
+### AI Image & Video Tools
 
-**Streamlit**
-- https://streamlit.io
-- Easy web app creation for ML projects, free community cloud hosting
+**ComfyUI**
+- https://github.com/comfyanonymous/ComfyUI
+- Visual node-based interface for Stable Diffusion and other models
+- Great for understanding AI image generation
+- Runs locally, highly customizable
 
-**Gradio**
-- https://gradio.app
-- Simple ML web interfaces, free hosting via Hugging Face Spaces
+**Stable Diffusion**
+- https://stability.ai
+- Open source image generation
+- Many web UIs and implementations
 
-**Paperspace**
-- https://www.paperspace.com/artificial-intelligence
-- Free tier available, GPU-powered notebooks and deployments
-
-### Learning Resources
+## AI Learning Resources
 
 **Fast.ai**
 - https://www.fast.ai
@@ -194,7 +289,7 @@ _Last updated: 2025-07-24_
 - https://www.deeplearning.ai
 - AI courses and specializations
 
-### YouTube Tutorials
+## YouTube Tutorials
 
 **Socratica - Python Course**
 - https://www.youtube.com/watch?v=bY6m6_IIN94&list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&pp=iAQB
@@ -220,16 +315,79 @@ _Last updated: 2025-07-24_
 - https://www.youtube.com/@Computerphile
 - Wide range of computer science topics explained in-depth
 
-## Scraping Tools (TBD)
+## Scraping Tools
 
 ### Video
-youtube-dl / ytdlp
+**yt-dlp** (formerly youtube-dl)
+- https://github.com/yt-dlp/yt-dlp
+- Downloads videos from YouTube and 1000+ other sites
+- Much faster than youtube-dl and actively maintained
+```bash
+# Install with pip
+pip install yt-dlp
+```
 
 ### Images
-gallery-dl
+**gallery-dl**
+- https://github.com/mikf/gallery-dl
+- Downloads image galleries from 200+ sites
+- Works with pixiv, deviantart, twitter, etc.
+```bash
+# Install with pip
+pip install gallery-dl
+```
+
+**img2dataset**
+- https://github.com/rom1504/img2dataset
+- Downloads and processes large image datasets
+- Good for AI training data collection
 
 ### Social Media Platforms 
-instagram
+**instaloader**
+- https://github.com/instaloader/instaloader
+- Includes many options to scrape Instagram
+```bash
+pip install instaloader
+```
+
+**PRAW**
+- https://github.com/praw-dev/praw
+- Reddit API wrapper
+- Good for collecting text data
+```bash
+pip install praw
+```
+
+### Web Scraping
+
+**requests**
+- Essential HTTP library for Python
+- Base of most scraping tools
+```bash
+pip install requests
+```
+
+**BeautifulSoup4**
+- Standard Python library for parsing HTML
+- Great for structured data extraction
+```bash
+pip install beautifulsoup4
+```
+
+**Selenium**
+- For sites that need JavaScript
+- Controls actual browser, good for complex sites
+```bash
+pip install selenium
+```
+
+**Playwright**
+- Alternative to Selenium
+- Better automation and less detection
+```bash
+pip install playwright
+playwright install
+```
 
 _“In the computer field, the moment of truth is a_
 _running program; all else is prophecy.”_
