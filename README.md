@@ -7,24 +7,28 @@ Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.co
 ## To Do:
 
 - [ ] Add RAG notebook  
+- [ ] Clean up dev branch 
 - [ ] Add requirements.txt & add pip install instructions (talk about optional / required)
 - [ ] Update Planning in bca25 branch  
-- [ ] Add miniconda & venv install manual to readme  
+- [ ] Replace anaconda with miniconda & venv install manual to readme
 - [ ] Add how to install ffmpeg to readme
 - [ ] Check and update LLM tool list (Additional Tools & Deployments)
+- [ ] BringYourOwnData -> Data represented as something else, look at data in different ways (is there a good example?) -> david kreisel? edwin van der heyde ms word as music -> jpeg editing (headers / change numbers / inspect headers / inspect)
+- [ ] Add References to bottom of readme  
+- [ ] Add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
 
-## Ideas
+## Ideas / Topics
 
-- BringYourOwnData  
 - Notebook about emergence/complexity with CA, genetic algos and neural networks, autopoesis  
 - Add kernels to matrix nb, like edge detection, blur etc.
 - Notebook about sorting, (sorting algos, pixel sorting etc.) that we could place after the noise nb.
-- Add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
 - Show differences between parametric / procedural / generative approaches
 - Digital vs analogue 
-- How to write pseudo code, flowcharts, instructions (Sol LeWitt)
+- How to write pseudo code, flowcharts, instructions (Sol LeWitt) (idea is machine)
 - Mapping as alchemy
-
+- add section with different code editors (VScode, sublime, nano, vim/neovim, Emacs)
+- dichotomy human / machine / transhumanism / technosolutionism 
+- technical metaphors and analogies (from steam engine to ai)
 
 ## Course Outline
 In this super practical workshop we will get you going with programming simple computational artworks. The focus is on learning the basics. Topics might include: recursion, randomness, generative algorithms, rule sets, data processing, web scraping, hacking, text generation, chaotic systems, and some machine learning. We will use the programming language Python, so some experience with programming is required! In the morning we will discuss some theory, and study examples from computer art history. This will take about 1 hour, and will be followed by coding examples and hands-on help on the individual student’s project.  
@@ -93,6 +97,7 @@ On each day in the morning we will have an introduction to several topics rangin
 | 6   |        |                        |                                     |       |
 | 7   |        |                        |                                     |       |
 | 8   |        |                        |                                     |       |
+
 
 ## LLM tools
 _Last updated: 2025-07-24_
@@ -214,6 +219,17 @@ _Last updated: 2025-07-24_
 **Computerphile**
 - https://www.youtube.com/@Computerphile
 - Wide range of computer science topics explained in-depth
+
+## Scraping Tools (TBD)
+
+### Video
+youtube-dl / ytdlp
+
+### Images
+gallery-dl
+
+### Social Media Platforms 
+instagram
 
 _“In the computer field, the moment of truth is a_
 _running program; all else is prophecy.”_
