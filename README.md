@@ -248,6 +248,18 @@ _Last updated: 2025-07-29_
 - https://www.perplexity.ai
 - Search engine with cited sources
 
+### PDF Parsing
+
+**Docling**
+- https://github.com/docling-project/docling
+
+**olmOCR**
+- https://github.com/allenai/olmocr
+
+**marker**
+- https://github.com/datalab-to/marker
+
+
 ### Additional Tools
 
 **Hugging Face**
