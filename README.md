@@ -11,25 +11,11 @@ Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.co
 - [x] Add how to install ffmpeg to readme
 - [x] Check and update LLM tool list (Additional Tools & Deployments)
 - [x] Add section about scraping
-- [ ] Add RAG notebooks  
+- [x] Add RAG notebooks  
+- [x] Update Planning in bca25 branch  
 - [ ] Clean up dev branch 
-- [ ] Update Planning in bca25 branch  
-- [ ] BringYourOwnData -> Data represented as something else, look at data in different ways (is there a good example?) -> david kreisel? edwin van der heyde ms word as music -> jpeg editing (headers / change numbers / inspect headers / inspect)
 - [ ] Add References to bottom of readme  
 - [ ] Add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
-
-## Ideas / Topics
-
-- Notebook about emergence/complexity with CA, genetic algos and neural networks, autopoesis  
-- Add kernels to matrix nb, like edge detection, blur etc.
-- Notebook about sorting, (sorting algos, pixel sorting etc.) that we could place after the noise nb.
-- Show differences between parametric / procedural / generative approaches
-- Digital vs analogue 
-- How to write pseudo code, flowcharts, instructions (Sol LeWitt) (idea is machine)
-- Mapping as alchemy
-- add section with different code editors (VScode, sublime, nano, vim/neovim, Emacs)
-- dichotomy human / machine / transhumanism / technosolutionism 
-- technical metaphors and analogies (from steam engine to ai)
 
 ## Course Outline
 In this super practical workshop we will get you going with programming simple computational artworks. The focus is on learning the basics. Topics might include: recursion, randomness, generative algorithms, rule sets, data processing, web scraping, hacking, text generation, chaotic systems, and some machine learning. We will use the programming language Python, so some experience with programming is required! In the morning we will discuss some theory, and study examples from computer art history. This will take about 1 hour, and will be followed by coding examples and hands-on help on the individual student’s project.  
@@ -172,25 +158,32 @@ ffmpeg -version
 
 ## Planning
 
-On each day in the morning we will have an introduction to several topics ranging from chaos and randomness to machine learning and neural networks, after which you will have some time to work on your projects.
+On each day in the morning we will have an introduction to several topics ranging from data and randomness to machine learning and neural networks, after which you will have some time to work on your projects.  
+We conclude each day with a show and tell where we look at and discuss experiments and findings. BringYourOwnCode.
 
-| Day | Date   | Description            | Focus                               | Notes |
-|-----|--------|------------------------|-------------------------------------|-------|
-| 1   |        |                        |                                     |       |
-| 2   |        |                        |                                     |       |
-| 3   |        |                        |                                     |       |
-| 4   |        |                        |                                     |       |
-|-----|--------|------------------------|-------------------------------------|-------|
-| 5   |        |                        |                                     |       |
-| 6   |        |                        |                                     |       |
-| 7   |        |                        |                                     |       |
-| 8   |        |                        |                                     |       |
+| Day | Date   | Description            | Focus                                                           | Notes               |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 1   |08.09.25|Boot day                |Introduction and install fest, approaches, literate programming  |                     |
+| 2   |09.09.25|Data day                |The computational turn, systematic exploration                   |                     |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 3   |15.09.25|RAG day                 |Local LLM's and data, cybernetics as method for artscience       |                     |
+| 4   |15.09.25|Generative day          |Algorithmic art, Margaret Boden, concept development             |                     |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 5   |15.09.25|Project day             |Work on individual projects with coding and debug assistance     |                     |
+| 6   |15.09.25|Debug day               |Work on individual projects with coding and debug assistance     |                     |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 7   |15.09.25|Birth day               |Finish individual project & prep presentation                    |                     |       
+| 8   |15.09.25|Studio Visit            |Studio Visit @ Driessens & Verstappen w/ project presentations   |Amsterdam            |
 
 
 ## LLM tools
-_Last updated: 2025-07-29_
+_Last updated: 07.09.2025_
 
 ### Chatbots and Language Models
+
+**Lumo AI**
+- https://lumo.proton.me/  
+- Privacy foused, by proton
 
 **Mistral AI**
 - https://mistral.ai
