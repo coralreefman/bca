@@ -4,6 +4,25 @@
 
 Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.com/entry/pull-yourself-up-by-your-bootstraps-nonsense_n_5b1ed024e4b0bbb7a0e037d4).
 
+## Planning
+
+On each day in the morning we will have an introduction to several topics ranging from data and randomness to machine learning and neural networks, after which you will have some time to work on your projects.  
+We conclude each day with a show and tell where we look at and discuss experiments and findings. BringYourOwnCode.
+
+| Day | Date   | Description            | Focus                                                           | Notes               |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 1   |08.09.25|Boot day                |Introduction and install fest, approaches, literate programming  |                     |
+| 2   |09.09.25|Data day                |The computational turn, systematic exploration                   |                     |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 3   |15.09.25|RAG day                 |Local LLM's and data, cybernetics as method for artscience       |                     |
+| 4   |15.09.25|Generative day          |Algorithmic art, Margaret Boden, concept development             |                     |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 5   |15.09.25|Project day             |Work on individual projects with coding and debug assistance     |                     |
+| 6   |15.09.25|Debug day               |Work on individual projects with coding and debug assistance     |                     |
+|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
+| 7   |15.09.25|Birth day               |Finish individual project & prep presentation                    |                     |       
+| 8   |15.09.25|Studio Visit            |Studio Visit @ Driessens & Verstappen w/ project presentations   |Amsterdam            |
+
 ## To Do:
 
 - [x] Replace anaconda with miniconda & venv install manual to readme
@@ -155,26 +174,6 @@ To check if it worked, just type:
 ```bash
 ffmpeg -version
 ```
-
-## Planning
-
-On each day in the morning we will have an introduction to several topics ranging from data and randomness to machine learning and neural networks, after which you will have some time to work on your projects.  
-We conclude each day with a show and tell where we look at and discuss experiments and findings. BringYourOwnCode.
-
-| Day | Date   | Description            | Focus                                                           | Notes               |
-|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
-| 1   |08.09.25|Boot day                |Introduction and install fest, approaches, literate programming  |                     |
-| 2   |09.09.25|Data day                |The computational turn, systematic exploration                   |                     |
-|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
-| 3   |15.09.25|RAG day                 |Local LLM's and data, cybernetics as method for artscience       |                     |
-| 4   |15.09.25|Generative day          |Algorithmic art, Margaret Boden, concept development             |                     |
-|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
-| 5   |15.09.25|Project day             |Work on individual projects with coding and debug assistance     |                     |
-| 6   |15.09.25|Debug day               |Work on individual projects with coding and debug assistance     |                     |
-|-----|--------|------------------------|-----------------------------------------------------------------|---------------------|
-| 7   |15.09.25|Birth day               |Finish individual project & prep presentation                    |                     |       
-| 8   |15.09.25|Studio Visit            |Studio Visit @ Driessens & Verstappen w/ project presentations   |Amsterdam            |
-
 
 ## LLM tools
 _Last updated: 07.09.2025_
