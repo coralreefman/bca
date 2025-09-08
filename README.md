@@ -5,41 +5,29 @@
 Baron Munchausen demonstrating an act of [Bootstrapping](https://www.huffpost.com/entry/pull-yourself-up-by-your-bootstraps-nonsense_n_5b1ed024e4b0bbb7a0e037d4).
 
 ## Course Outline
-In this super practical workshop we will get you going with programming simple computational artworks. The focus is on learning the basics. Topics might include: recursion, randomness, generative algorithms, rule sets, data processing, web scraping, hacking, text generation, chaotic systems, and some machine learning. We will use the programming language Python, so some experience with programming is required! In the morning we will discuss some theory, and study examples from computer art history. This will take about 1 hour, and will be followed by coding examples and hands-on help on the individual student’s project.  
-As Artificial Intelligence and Machine Learning is developing at a rapid rate, we will look at how this can help us with generative art and how we can code more effectively with AI-assist.
+In this super practical workshop we will get you going with programming simple computational artworks. The focus is on learning the basics. Topics might include: recursion, randomness, generative algorithms, rule sets, data processing, web scraping, hacking, text generation, chaotic systems, and some machine learning. We will use the programming language Python, so some experience with programming is required! As Artificial Intelligence and Machine Learning is developing at a rapid rate, we will look at how this infliuences generative art and how we can code more effectively with AI-assist.
 
-## Planning
-
-Each morning, we will begin with an introduction to several topics ranging from data and randomness to machine learning and neural networks. In the afternoon we will work with some hands-on examples, followed by dedicated time for you to work on your projects.   
+Each morning, we will begin with an introduction to several topics ranging from data and randomness to machine learning and neural networks. We will discuss some theory, and study examples from computer art history. This will take about 1 hour, and will be followed by coding examples and hands-on help on the individual student’s project.   
 We conclude each day with a show-and-tell session, where we share experiments and discoveries. `BringYourOwnCode`
 
 
-| Day | Date   | Description  | Focus                                                           | Notes               |
-|-----|--------|--------------|-----------------------------------------------------------------|---------------------|
-| 1   |08.09.25|Boot day      |Introduction and install fest, approaches, literate programming  |                     |
-| 2   |09.09.25|Data day      |The computational turn, systematic exploration                   |                     |
-|-----|--------|--------------|-----------------------------------------------------------------|---------------------|
-| 3   |15.09.25|RAG day       |Local LLM's and data, cybernetics as a method for artscience     |                     |
-| 4   |15.09.25|Generative day|Algorithmic art, Margaret Boden, concept development             |                     |
-|-----|--------|--------------|-----------------------------------------------------------------|---------------------|
-| 5   |15.09.25|Project day   |Work on individual projects with coding and debug assistance     |                     |
-| 6   |15.09.25|Debug day     |Work on individual projects with coding and debug assistance     |                     |
-|-----|--------|--------------|-----------------------------------------------------------------|---------------------|
-| 7   |15.09.25|Birth day     |Finish individual project & prep presentation                    |                     |       
-| 8   |15.09.25|Studio Visit  |Studio Visit @ Driessens & Verstappen w/ project presentations   |Amsterdam            |
+## Planning
 
-## To Do:
 
-- [x] Replace anaconda with miniconda & venv install manual to readme
-- [x] Add requirements.txt & add pip install instructions (talk about optional / required)
-- [x] Add how to install ffmpeg to readme
-- [x] Check and update LLM tool list (Additional Tools & Deployments)
-- [x] Add section about scraping
-- [x] Add RAG notebooks  
-- [x] Update Planning in bca25 branch  
-- [ ] Clean up dev branch 
-- [ ] Add References to bottom of readme  
-- [ ] Add ‘the clock’ movie from 70’s, videogrep, paul sharits, michael snow etc. to video nb
+| Day | Date   | Description    | Focus                                                           | Notes               |
+|-----|--------|----------------|-----------------------------------------------------------------|---------------------|
+| 1   |08.09.25|Boot day        |Introduction and install fest, approaches, literate programming  |                     |
+| 2   |09.09.25|Data day        |The computational turn, systematic exploration                   |                     |
+|-----|--------|----------------|-----------------------------------------------------------------|---------------------|
+| 3   |15.09.25|RAG day         |Local LLM's and data, cybernetics as a method for artscience     |                     |
+| 4   |16.09.25|Generative day  |Algorithmic art, Margaret Boden, concept development             |                     |
+|-----|--------|----------------|-----------------------------------------------------------------|---------------------|
+| 5   |22.09.25|Project day     |Work on individual projects with coding and debug assistance     |                     |
+| 6   |23.09.25|Debug day       |Work on individual projects with coding and debug assistance     |                     |
+|-----|--------|----------------|-----------------------------------------------------------------|---------------------|
+| 7   |29.09.25|Birth day       |Finish individual project & prep presentation                    |                     |       
+| 8   |30.09.25|Studio Visit    |Studio Visit @ Driessens & Verstappen w/ project presentations   |Amsterdam            |
+
 
 ## Requirements
 
