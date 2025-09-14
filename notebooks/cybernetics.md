@@ -17,7 +17,8 @@ The fundamental principle of cybernetics is that systems, whether biological, me
 
 There are two primary types of **feedback loops** in cybernetic systems: **positive** and **negative**. Positive feedback loops amplify the initial stimulus, leading to exponential growth or decline, and can result in runaway conditions such as population explosions, inflation, or the proliferation of cancer cells. These loops are divergent and can destabilize a system, potentially leading to its destruction if unchecked.  
 
-In contrast, negative feedback loops work to reduce the discrepancy between the actual state and a desired goal state, promoting stability, equilibrium, and homeostasis. Examples include a thermostat regulating room temperature or the human body maintaining blood glucose levels.
+In contrast, negative feedback loops work to reduce the discrepancy between the actual state and a desired goal state, promoting stability, equilibrium, and homeostasis. Examples include a thermostat regulating room temperature or the human body maintaining blood glucose levels.  
+
 ![image](images/second-order-cybernetics.webp)  
 
 This idea has since been applied across diverse fields, including engineering, neuroscience, psychology, sociology, and artificial intelligence, where feedback loops are essential for learning and adaptation.  
