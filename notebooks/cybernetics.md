@@ -89,7 +89,7 @@ I imagine is a process; the me’s and you’s I am imagining are the products o
 ![image](images/heinz-von-foerster.webp)  
 *“First-order cybernetics is the science of observed systems; Second-order cybernetics is the science of observing systems.”*  
   
-*"Should one name one central concept, a first principle, of cybernetics, it would be circularity."*
+*"Should one name one central concept, a first principle, of cybernetics, it would be circularity."*  
 Heinz von Foerster 
 
 Second-order cybernetics, also known as the cybernetics of cybernetics or the new cybernetics, is a distinct tradition within cybernetics that emerged between the late 1960s and mid-1970s, primarily developed by Heinz von Foerster and others. It is characterized by the recursive application of cybernetics to itself, emphasizing the role of the observer as an integral part of the system being studied, rather than a detached entity. This approach takes "circularity seriously," recognizing that the observer and the observed are interdependent and co-constructing systems. It arose from concerns evident during the Macy Conferences, where cybernetics was initially developed, and was significantly influenced by Margaret Mead's 1967 address to the American Society for Cybernetics, which called for cyberneticians to take responsibility for the social consequences of their work.
