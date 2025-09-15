@@ -337,7 +337,7 @@ This simple practice of turning attention back on your own thought process is wh
 ---
 ## finally
 Radical aspect of cybernetics: the idea of finally being able to transcend the boundaries between object and subject, nature and culture—to arrive at a new theoretical model, an all-encompassing instrument of knowledge, and ultimately, a superior method of analyzing the world. In many ways, this rigor was rooted in the ambition of cybernetics to become a universal science.  
-Vrachliotis, Georg - The New Technological Condition_ Architecture and Technical Thinking in the Age of Cybernetics-Birkhäuser (2022)
+>Vrachliotis, Georg - The New Technological Condition_ Architecture and Technical Thinking in the Age of Cybernetics-Birkhäuser (2022)
 
 ## extra
 Skinner's Project Pigeon.
